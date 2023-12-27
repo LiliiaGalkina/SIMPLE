@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Simple</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container container">
+				<div class="header__logo"><img src="img/logo.svg" alt="logotip"></div>
+				<nav class="header__menu menu-header">
+					<ul id="menu" class="menu-header__list ">
+						<li class="menu-header__item"><a href="#" class="menu-header__link">Продукция</a></li>
+						<li class="menu-header__item"><a href="#" class="menu-header__link">Материалы</a></li>
+						<li class="menu-header__item"><a href="#" class="menu-header__link">О нас</a></li>
+						<li class="menu-header__item"><a href="#" class="menu-header__link">Контакты</a></li>
+					</ul>
+					<div id="burger" class="header__burger"><span></span></div>
+				</nav>
+				<div class="menu-header__find find">
+					<div class="find__image"></div>
+					<div class="find__input"><input placeholder="Найти" type="text"></div>
+					<div class="find__login"></div>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section class="simple">
+				<div class="simple__container container">
+					<div class="simple__items">
+						<div class="simple__content content-simple">
+							<h1 class="content-simple__title">Простые вещи. Из бумаги</h1>
+							<div class="content-simple__text">Бума́га (предположительно от итал. bombagia, первоисточником же считается иранский) — волокнистый материал с
+							минеральными добавками.</div>
+							<a class="content-simple__button">Каталог</a>
+						</div>
+						<div class="simple__image">
+							<picture>
+								<source srcset="img/simple.jpg" type="image/jpeg" media="(min-width:755px)">
+								<source srcset="img/simpletab.jpg" type="image/jpeg" media="(min-width:596px)">
+								<source srcset="img/simpletablittle.jpg" type="image/jpeg" media="(min-width:481px)">
+								<source srcset="img/simple.jpg" type="image/jpeg" media="(max-width:481px)">
+								<img src="img/simple.jpg" alt="">
+							</picture>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="paper">
+				<div class="paper__container container">
+					<div class="paper__items-little items-little">
+						<div class="items-little__item item-little">
+							<div class="item-little__image"><img src="img/paper/v1.png" alt="Paper V.1"></div>
+							<div class="item-little__body">
+								<div class="item-little__title">V.1</div>
+								<div class="item-little__text">Результат вашего обучения</div>
+							</div>
+						</div>
+						<div class="items-little__item item-little">
+							<div class="item-little__image"><img src="img/paper/v2.png" alt="Paper V.2"></div>
+							<div class="item-little__body">
+								<div class="item-little__title">V.2</div>
+								<div class="item-little__text">Результат вашего обучения</div>
+							</div>
+						</div>
+						<div class="items-little__item item-little">
+							<div class="item-little__image"><img src="img/paper/v3.png" alt="Paper V.3"></div>
+							<div class="item-little__body">
+								<div class="item-little__title">V.3</div>
+								<div class="item-little__text">Результат вашего обучения</div>
+							</div>
+						</div>
+					</div>
+					<div class="paper__items-big items-big">
+						<div class="items-big__image"><img src="img/paper/v big.png" alt="Paper big"></div>
+						<div class="items-big__content content-big">
+							<h2 class="content-big__title">Максимальная белизна</h2>
+							<div class="content-big__text">
+								<p>Для повышения белизны, гладкости и мягкости в состав бумажной массы вводят белые минеральные вещества: мел, тальк, каолин и др. Эта операция называется наполнением.</p>
+								<p>Отлив бумажного листа осуществляют на бумагоделательной машине, важнейшей частью которой является непрерывно движущаяся (как транспортер) металлическая или капроновая сетка.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="products">
+				<div class="products__container container">
+					<div class="products__items">
+						<div class="products__column">
+							<div class="product__item item-products">
+								<div class="item-products__image"><img src="img/products/1upak.png" alt="Упаковка"></div>
+								<div class="item-products__content">
+									<div class="item-products__title">Упаковка</div>
+									<div class="item-products__tiraz">Тираж: от 50 штук</div>
+									<div class="item-products__text">Сделано из крафт-бумаги или плотного картона. Упаковки имеют различные формы и расцветки, изготовим форму под заказ.</div>
+									<a href="#" class="item-products__link">
+										<div class="item-products__link-text">Подробнее</div>
+										<div class="item-products__arrow"><img src="img/icons/Arrow 1.svg" alt=""></div>
+									</a>
+									
+								</div>
+							</div>
+						</div>
+						<div class="products__column">
+							<div class="product__item item-products">
+								<div class="item-products__image"><img src="img/products/2paket.png" alt="Упаковка"></div>
+								<div class="item-products__content">
+									<div class="item-products__title">Пакеты</div>
+									<div class="item-products__tiraz">Тираж: от 200 штук</div>
+									<div class="item-products__text">С прямоугольным дном. От 10 см до 60 см по высоте. Материалы: картон, крафт-бумага. Различные расцветки и дизайн.</div>
+									<div class="item-products__link">
+										<a href="#" class="item-products__link-text">Подробнее</a>
+										<div class="item-products__arrow"><img src="img/icons/Arrow 1.svg" alt=""></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="products__column">
+							<div class="product__item item-products">
+								<div class="item-products__image"><img src="img/products/3keise.png" alt="Упаковка"></div>
+								<div class="item-products__content">
+									<div class="item-products__title">Кейсы</div>
+									<div class="item-products__tiraz">Тираж: от 30 штук</div>
+									<div class="item-products__text">Подойдет для документов и других бумаг. Различные расцветки, размеры и плотность. Материал: прессованная бумага.</div>
+									<div class="item-products__link">
+										<a href="#" class="item-products__link-text">Подробнее</a>
+										<div class="item-products__arrow"><img src="img/icons/Arrow 1.svg" alt=""></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="products__column">
+							<div class="product__item item-products">
+								<div class="item-products__image"><img src="img/products/1upak.png" alt="Упаковка"></div>
+								<div class="item-products__content">
+									<div class="item-products__title">Другие изделия</div>
+									<div class="item-products__tiraz">Тираж: от 100 штук</div>
+									<div class="item-products__text">Нестандартные упаковки, кейсы и другие изделия различных размеров и конфигураций. Изготовим в кратчайшие сроки.</div>
+									<div class="item-products__link">
+										<a href="#" class="item-products__link-text">Подробнее</a>
+										<div class="item-products__arrow"><img src="img/icons/Arrow 1.svg" alt=""></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="partners">
+				<div class="partners__container container">
+					<div class="partners__items">
+						<div class="partners__column">
+							<div class="partner__image"><img src="img/clients/1hahnemuehle-logo-vector 1.png" alt=""></div>
+						</div>
+						<div class="partners__column">
+							<div class="partner__image"><img src="img/clients/2Frame 225.png" alt=""></div>
+						</div>
+						<div class="partners__column">
+							<div class="partner__image"><img src="img/clients/3royal-talens-bv-logo-vector 1.png" alt=""></div>
+						</div>
+						<div class="partners__column">
+							<div class="partner__image"><img src="img/clients/4Frame.png" alt=""></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="skretchbook">
+				<div class="skretchbook__container container">
+					<div class="skretchbook__items">
+						<div class="skretchbook__item item-skretchbook">
+							<div class="item-skretchbook__body">
+								<h2 class="item-skretchbook__title">Simple скетчбук</h2>
+								<div class="item-skretchbook__text">80 листов, твердая обложка, бумага Fabriano 200 г/м2. Подойдет и для графики и для акварели. Для самых смелых творческих замыслов!</div>
+								<a href="#" class="item-skretchbook__button">Купить</a>
+							</div>
+						</div>
+						<div class="skretchbook__item item-skretchbook">
+							<div class="item-skretchbook__img">
+								<picture>
+									<source srcset="img/scretch.jpg" type="image/jpeg" media="(min-width:800px)">
+									<source srcset="img/scretchtab.jpg" type="image/jpeg" media="(min-width:671px)">
+									<source srcset="img/scretchlittletab.jpg" type="image/jpeg" media="(min-width:481px)">
+									<source srcset="img/scretchlittletab.jpg" type="image/jpeg" media="(max-width:481px)">
+									<img src="img/scretch.jpg" alt="">
+								</picture>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container container">
+				<div class="footer__items">
+					<div class="footer__item footer-logo">
+						<img src="img/logowhite.svg" alt="logotip">
+					</div>
+					<div class="footer__item footer-social">
+						<a href="#" class="footer-social__item"><img src="img/icons/1Frame.svg" alt="FB"></a>
+						<a href="#" class="footer-social__item"><img src="img/icons/2Vector.svg" alt="Twitter"></a>
+						<a href="#" class="footer-social__item"><img src="img/icons/3Vector (1).svg" alt="Instagram"></a>
+						<a href="https://www.youtube.com/" class="footer-social__item"><img src="img/icons/4Vector (2).svg" alt="Youtube"></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
